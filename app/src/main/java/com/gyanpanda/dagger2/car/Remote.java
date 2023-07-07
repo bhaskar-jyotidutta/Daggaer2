@@ -1,4 +1,4 @@
-package com.gyanpanda.dagger2;
+package com.gyanpanda.dagger2.car;
 
 import android.util.Log;
 

@@ -1,6 +1,4 @@
-package com.gyanpanda.dagger2;
-
-import javax.inject.Inject;
+package com.gyanpanda.dagger2.car;
 
 /*Consider that this class belongs to another library so we can not use @Inject here*/
 public class Wheels {

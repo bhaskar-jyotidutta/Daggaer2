@@ -1,4 +1,4 @@
-package com.gyanpanda.dagger2;
+package com.gyanpanda.dagger2.car;
 
 import dagger.Module;
 import dagger.Provides;
@@ -11,7 +11,7 @@ public class WheelsModule {
 
     /*Here we tell dagger how to create rims. Here we are making static so that dagger does not have to instantiate this class and then these methods*/
     @Provides
-    static Rims provideRims(){
+    public static Rims provideRims(){
         Rims rims =  new Rims();
         rims.inflate();
         return rims;
@@ -19,7 +19,7 @@ public class WheelsModule {
 
     /*Here we tell dagger how to create rims. Here we are making static so that dagger does not have to instantiate this class and then these methods*/
     @Provides
-    static Tires provideTires(){
+    public static Tires provideTires(){
         Tires tires = new Tires();
         tires.inflate();
         return tires;

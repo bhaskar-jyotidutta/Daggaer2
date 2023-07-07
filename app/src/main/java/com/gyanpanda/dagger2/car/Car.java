@@ -1,6 +1,8 @@
-package com.gyanpanda.dagger2;
+package com.gyanpanda.dagger2.car;
 
 import android.util.Log;
+
+import com.gyanpanda.dagger2.dagger.Engine;
 
 import javax.inject.Inject;
 
@@ -26,6 +28,7 @@ public class Car {
 
 
     public void drive(){
+        engine.startEngine();
         Log.d(TAG, "driving...");
     }
 

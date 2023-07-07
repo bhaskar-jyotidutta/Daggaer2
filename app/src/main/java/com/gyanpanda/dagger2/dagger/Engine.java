@@ -1,4 +1,4 @@
-package com.gyanpanda.dagger2;
+package com.gyanpanda.dagger2.dagger;
 
 import android.util.Log;
 

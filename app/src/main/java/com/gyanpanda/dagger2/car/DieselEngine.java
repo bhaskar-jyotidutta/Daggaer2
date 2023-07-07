@@ -1,10 +1,12 @@
-package com.gyanpanda.dagger2;
+package com.gyanpanda.dagger2.car;
 
 import android.util.Log;
 
+import com.gyanpanda.dagger2.dagger.Engine;
+
 import javax.inject.Inject;
 
-public class DieselEngine implements Engine{
+public class DieselEngine implements Engine {
 
     @Inject
     public DieselEngine() {
