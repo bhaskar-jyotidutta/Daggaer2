@@ -14,9 +14,7 @@ public class Computer {
     @Inject Keyboard keyboard;
 
     @Inject
-    public Computer(Mouse mouse, Keyboard keyboard) {
-        this.mouse = mouse;
-        this.keyboard = keyboard;
+    public Computer() {
     }
 
     void runChrome(){
