@@ -4,17 +4,11 @@ import android.util.Log;
 
 import javax.inject.Inject;
 
-public class Engine {
+/*Here Engine is an interface so dagger can not instantiate it. Instead we make an implementation of this interface*/
+public interface Engine {
 
-    public static final String TAG = "Engine";
+    public static final String TAG = "Car";
 
-    @Inject
-    public Engine() {
-
-    }
-
-    void startEngine(){
-        Log.d(TAG, "Engine started");
-    }
+    void startEngine();
 
 }
