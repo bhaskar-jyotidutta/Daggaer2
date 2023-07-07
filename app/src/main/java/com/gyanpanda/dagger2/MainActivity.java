@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         carComponent.inject(this);
 
         car.drive();
+        car.engine.startEngine();
         computer.runChrome();
 
     }

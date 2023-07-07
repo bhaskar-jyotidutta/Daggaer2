@@ -13,7 +13,7 @@ public class Remote {
 
     }
 
-    public void setListener(Car car){
+    public void connectRemote(Car car){
         Log.d(TAG, "Remote Connected");
     }
 
