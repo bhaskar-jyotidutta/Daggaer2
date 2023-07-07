@@ -7,5 +7,4 @@ public interface CarComponent {
 
     void inject(MainActivity mainActivity);
 
-
 }
