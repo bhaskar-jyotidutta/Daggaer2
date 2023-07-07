@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
 
     /*Field injection method*/
     @Inject Car car;
-    @Inject Computer computer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
         carComponent.inject(this);
 
         car.drive();
-        car.engine.startEngine();
-        computer.runChrome();
 
     }
 }
